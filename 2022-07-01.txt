@@ -1,0 +1,20 @@
+관계형 데이터베이스
+alter 변경 명령어
+desc 테이블명 테이블 내 보여줌
+null값 -> commission 대상자가 아님
+nvl (컬럼,0) 널값 0으로 대체
+distinct 중복된값 하나로 보여줌
+select ename 이름,salary 월급,salary*12+nvl(commission,0) 연봉 from employee
+ename=>이름으로 나타냄
+SELECT * from animal_ins order by animal_id 정렬
+dual테이블 -> 테이블중 데이터 하나만 찍어보고싶을때
+와일드카드 문자(wildcard character)는 
+컴퓨터에서 특정 명령어로 명령을 내릴 때,
+여러 파일을 한꺼번에 지정할 목적으로 사용하는 기호
+컬럼 like '문자%문자'
+
+select ename,job,hiredate from employee where ename like ('__A%');
+자리수__로 맞춰줌
+dml 데이터조작 insert update delete
+ddl 데이터정의create alter...
+dcl 데이터 제어 grant revoke

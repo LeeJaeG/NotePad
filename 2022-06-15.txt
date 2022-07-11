@@ -1,0 +1,17 @@
+스레드
+!프로그램 내 - 프로세스 내!에서 실행되는 흐름
+프로세스 내의 메모리를 공유해 사용
+https://makecodework.tistory.com/entry/Java-%EC%8A%A4%EB%A0%88%EB%93%9CThread-%EC%8A%A4%EB%A0%88%EB%93%9C-%EA%B0%9C%EB%85%90-%EB%B0%8F-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0
+
+Arraylist = 사이즈 고정 -> 	삽입시 사이즈 늘리는 연산 + 데이터 삽입연산
+			삭제시 빈인덱스를 채워야하는 연산
+			(지속될시 낭비되는 메모리가 많아짐)
+
+LinkedList =	인덱스를 채우거나 사이즈를 늘리는 연산 사용X
+		주소만 연결시켜줌
+https://opentutorials.org/module/1335/8821 
+Linked리스트의 그림과 Array리스트의 그림비교하면 이해가 쉬움
+
+java fx관련 url
+https://code.makery.ch/kr/library/javafx-tutorial/part1/
+
