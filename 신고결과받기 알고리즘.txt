@@ -1,0 +1,51 @@
+신고내용 " "을 기준으로 자른다
+신고당한자 hashmap [String 신고당한자][String[] 신고자]
+id_list = 신고당한자 append
+
+if 신고당한자 value인 신고자 배열 내 신고자가 있다면 
+추가 안함
+
+else
+[신고당한자]안 [신고자배열]추가
+
+int answer = 신고당한자 인덱스 | 값++
+
+
+
+package class01;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.lang.model.element.NestingKind;
+
+class Solution {
+    public int[] solution(String[] id_list, String[] report, int k) {
+        String[] id_list1={"muzi", "frodo", "apeach", "neo"};
+        String[] report1= {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
+        String[] strArr = report1[0].split(" ");
+        System.out.println(strArr[2]);
+        int[] answer = {};
+        return answer;
+    }
+    public static void main(String[] args) {
+    	String[] id_list1={"muzi", "frodo", "apeach", "neo"};
+        String[] report1= {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
+        
+        Map<String, String[]> arrMap = new HashMap<>();
+        for(int i=0; i<id_list1.length ; i++){
+            arrMap.put(id_list1[i], null);
+        }
+        for(int i=0; i<report1.length ; i++){
+        	String[] strArr = report1[i].split(" ");
+        	
+        	
+        	
+        }
+        
+        System.out.println(strArr[1]);
+	}
+}
+
+
+
