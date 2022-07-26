@@ -1,0 +1,19 @@
+게시판 클래스 다이어그램 만들기
+엔지니어링
+프로젝트 주제 선정 -> 어떠한 기능들을 넣을지(다양한 표? 티처블? 대시보드? 게시판 등등 )
+페이지 버튼이나 사소한 메뉴 위치등 설계에 대한 것들 준비하기 
+MVC 패턴
+
+c->m 로직처리 가공
+m->c 처리한것 줌
+c->v 뷰선택후 응답
+
+웹컨테이너
+https://helloworld-88.tistory.com/71
+
+1.서블릿 컨트롤러 ControllerUsingfile
+2. web.xml
+3.commandHandler.properties
+4.commandhandler(공통 인터페이스)
+5.각각의 Handler클래스
+6.

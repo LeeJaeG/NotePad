@@ -1,0 +1,5 @@
+xml 데이터들을 xsl/t 데이터를 보여줄 디자인으로 표현하는것
+https://crazykim2.tistory.com/630
+
+프론트 언어 참고 사이트(중요!)
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#the_flex-flow_shorthand
